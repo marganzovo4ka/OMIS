@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя</title>
+    <style>
+        /* Общие стили */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3; /* Серый фон */
+            color: #000; /* Черный текст */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-container {
+            background-color: #ccc; /* Светло-серый фон контейнера */
+            border-radius: 10px;
+            padding: 40px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Стили для заголовка и текста */
+        .profile-header {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .profile-label {
+            font-size: 1em;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        /* Кнопки */
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+            background-color: #a9a9a9; /* Серый цвет кнопки */
+            color: #000; /* Цвет текста */
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #888; /* Темнее при наведении */
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">Имя пользователя</div>
+        <div class="profile-label">Почта</div>
+        <a href="myexc" class="button">Мои экскурсии</a>
+        <a href="favorits" class="button">Избранное</a>
+    </div>
+</body>
+</html>

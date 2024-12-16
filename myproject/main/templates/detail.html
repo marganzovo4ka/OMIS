@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Детальный просмотр</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            background-color: #ccc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .photos {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-right: 20px;
+        }
+        .photo-small, .photo-main {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            width: 100px;
+            height: 100px;
+        }
+        .photo-main {
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+        }
+        .details {
+            flex: 1;
+        }
+        .details h2 {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #777;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photos">
+            <div class="photo-small">Фото</div>
+            <div class="photo-small">Фото</div>
+            <div class="photo-small">Фото</div>
+        </div>
+        <div class="photo-main">Фото</div>
+        <div class="details">
+            <h2>Описание</h2>
+            <p><strong>Название:</strong> Название экскурсии</p>
+            <p><strong>Тип:</strong> Тип экскурсии</p>
+            <p><strong>Местоположение:</strong> Местоположение</p>
+            <button>Добавить в Избранное</button>
+            <button>Смотреть</button>
+        </div>
+    </div>
+</body>
+</html>

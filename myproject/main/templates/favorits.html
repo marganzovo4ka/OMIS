@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Элементы с изменёнными кнопками</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #d9d9d9; }
+        .item { display: flex; align-items: center; background: #999; margin-bottom: 10px; padding: 10px; border-radius: 8px; }
+        .photo { width: 60px; height: 60px; background: #444; color: #fff; display: flex; align-items: center; justify-content: center; margin-right: 10px; }
+        .content { flex-grow: 1; }
+        .title { font-weight: bold; }
+        .buttons { display: flex; flex-direction: column; margin-left: 10px; }
+        .btn { background-color: #888; color: #fff; border: none; padding: 5px; margin: 2px 0; border-radius: 4px; cursor: pointer; text-align: center; }
+        .btn:hover { background-color: #666; }
+    </style>
+</head>
+<body>
+    <div class="item">
+        <div class="photo">Фото</div>
+        <div class="content">
+            <div class="title">Название</div>
+            <div>Краткое содержание</div>
+        </div>
+        <div class="buttons">
+            <button class="btn">Удалить из избранного</button>
+            <a href="detail">
+            <button class="btn">Смотреть</button>
+            </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="photo">Фото</div>
+        <div class="content">
+            <div class="title">Название</div>
+            <div>Краткое содержание</div>
+        </div>
+        <div class="buttons">
+            <button class="btn">Удалить из избранного</button>
+            <a href="detail">
+            <button class="btn">Смотреть</button>
+            </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="photo">Фото</div>
+        <div class="content">
+            <div class="title">Название</div>
+            <div>Краткое содержание</div>
+        </div>
+        <div class="buttons">
+            <button class="btn">Удалить из избранного</button>
+            <a href="detail">
+            <button class="btn">Смотреть</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
